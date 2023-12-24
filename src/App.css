@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #2B2D31;
+    width: 30vw;
+    color: #fff;
+}
+
+.chat-window {
+    background-color: greenyellow;
+    width: 70vw;
+}
+
+.list-users {
+    border: 2px solid red;
+    margin-top: 50px;
+    overflow: auto;
+    max-height: 85vh;
+    max-width: 30vw;
+}
+
+.list-users > ul {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.list-users > ul > li {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+.list-users > ul > li:hover {
+  cursor: pointer;
+  background-color: rgba(78, 80, 88, 0.6);
+}
+
+.list-users > ul > li.selected {
+    background-color: rgba(78, 80, 88, 0.6);
+}
+
+
+
+/* Per user design */

@@ -1,0 +1,10 @@
+.app-name{
+    padding: 10px;
+}
+
+.empty-window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
